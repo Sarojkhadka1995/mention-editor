@@ -153,6 +153,19 @@ You can customize the appearance by overriding the CSS classes:
 - `.mention-dropdown-item` - Individual dropdown items
 - `.mention-editor-submit-btn` - Submit button
 
+### Troubleshooting CSS Import
+
+If you get a "Module not found" error when importing the CSS:
+
+1. Make sure you've rebuilt the package: `npm run build`
+2. Check that `dist/styles.css` exists in the package
+3. Verify your package.json exports include:
+   ```json
+   "exports": {
+     "./styles.css": "./dist/styles.css"
+   }
+   ```
+
 ## Example with JSONPlaceholder API
 
 ```tsx
