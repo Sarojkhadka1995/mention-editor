@@ -1,7 +1,7 @@
 {
-  "name": "mention-editor",
+  "name": "@khadkasaroj/mention-editor",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "next build",
     "dev": "next dev",

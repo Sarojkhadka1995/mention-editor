@@ -17,6 +17,9 @@
     "dist",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -30,11 +33,11 @@
     "rich-text",
     "typescript"
   ],
-  "author": "Your Name",
+  "author": "Saroj khadka",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourname/mention-editor"
+    "url": "https://github.com/Sarojkhadka1995/mention-editor"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
