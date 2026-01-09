@@ -1,6 +1,6 @@
 {
   "name": "@khadkasaroj/mention-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A rich text editor with @mention support for React applications",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
