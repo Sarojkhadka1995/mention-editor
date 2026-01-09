@@ -1,6 +1,6 @@
 {
   "name": "@khadkasaroj/mention-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A rich text editor with @mention support for React applications",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -21,7 +21,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsup",
+    "build": "tsup && cp src/styles.css dist/styles.css",
     "dev": "tsup --watch",
     "prepublishOnly": "npm run build"
   },
